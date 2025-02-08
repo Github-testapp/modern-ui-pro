@@ -150,7 +150,7 @@ const ModernUI: React.FC = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="relative bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-32"
+          className="relative bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-28"
         >
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center space-y-6">
@@ -161,11 +161,11 @@ const ModernUI: React.FC = () => {
               </Button>
             </div>
           </div>
-          <div className="absolute -bottom-24 left-0 w-full h-48 bg-white dark:bg-gray-900 transform -skew-y-6" />
+          <div className="absolute -bottom-16 left-0 w-full h-32 bg-white dark:bg-gray-900 transform -skew-y-3" />
         </motion.section>
 
         {/* アナリティクスセクション */}
-        <section className="py-24 bg-gray-50 dark:bg-gray-800">
+        <section className="py-32 bg-gray-50 dark:bg-gray-800">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-16 dark:text-white">
               {t("realTimeAnalytics")}
